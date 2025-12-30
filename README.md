@@ -83,40 +83,5 @@ Aspiring Python Developer
 
 ⭐ If you like this project, don’t forget to star the repository!
 
----
-
-## 🔹 GitHub Topics (Very Important for Reach)
-
-Add these in **Topics** section on GitHub:
-
-
-python
-python-project
-beginner-python
-age-calculator
-cli-application
-learning-python
-student-project
-
----
-
-## 🔹 Commit Message (First Commit)
-
-
-
----
-
-## 🔹 Perfect for:
-- College practicals
-- Resume project
-- GitHub profile
-- Python beginners
-
-If you want, I can also:
-- 🔥 Improve the code quality
-- 🧾 Add comments for viva
-- 🎨 Create a banner for GitHub
-- 📌 Write a LinkedIn post for this repo
-
-Just tell me 👍
+------------------------------------------------------------------
 
