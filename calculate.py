@@ -44,3 +44,7 @@ print("\n\t%s's age is %d years or " % (name, year), end="")
 print("%d months or %d days" % (month, day))
 
 # Daily commit: 48
+
+day = day + localtime.tm_mday
+print("\n\t%s's age is %d years or " % (name, year), end="")
+print("%d months or %d days" % (month, day))
