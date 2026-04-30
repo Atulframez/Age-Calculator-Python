@@ -42,11 +42,22 @@ def month_days(month, leap_year):
         return 28
 
 
-name = input("Please enter your name: ")
-age = input("Please enter your age: ")
-localtime = time.localtime(time.time())
+name = input("Please enter your name: ").strip()
+if not name:
+    print("Error: Name cannot be empty.")
+    exit(1)
 
-year = int(age)
+age = input("Please enter your age: ").strip()
+try:
+    year = int(age)
+    if year <= 0 or year > 150:
+        print("Error: Please enter a valid age between 1 and 150.")
+        exit(1)
+except ValueError:
+    print("Error: Age must be a number.")
+    exit(1)
+
+localtime = time.localtime(time.time())
 month = year * 12 + localtime.tm_mon
 day = 0
 
